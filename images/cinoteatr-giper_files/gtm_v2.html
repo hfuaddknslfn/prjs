@@ -1,0 +1,142 @@
+
+<!-- saved from url=(0108)https://yastatic.net/s3/kinopoisk-frontend/hd-www/release/gtm_v2.html?container=GTM-NKB8ZHJ&source=kinopoisk -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./main.MTI1YjU3ZmM1MA.js.Без названия" data-id="CF80N43C77UEUGLDLP2G"></script><script type="text/javascript" async="" src="./events.js.Без названия"></script><script type="text/javascript" async="" id="tmr-code" src="./code.js.Без названия"></script><script type="text/javascript" async="" id="topmailru-code" src="./code.js.Без названия"></script><script async="" src="./dtm.js.Без названия"></script><script src="./gtm.js.Без названия" async=""></script>
+        <title>Google Tag Manager</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            (function(window) {
+                var query = window.location.search.substring(1).split('&');
+                var params = {};
+                var containerId = findQueryParam(query, 'container');
+                var layerName = findQueryParam(query, 'l') || 'dataLayer';
+                var source = findQueryParam(query, 'source');
+
+                window[layerName] = window[layerName] || [];
+
+                if (!containerId) {
+                    console.error('You must specify `container` query parameter for GTM!');
+                    return;
+                }
+
+                if (!source) {
+                    console.error('You must specify `source` query parameter!');
+                    return;
+                }
+
+                function assign(defaults, options) {
+                    var extended = {};
+                    var prop;
+
+                    for(prop in defaults) {
+                        if (Object.prototype.hasOwnProperty.call(defaults, prop) && defaults[prop] != '') {
+                            extended[prop] = defaults[prop];
+                        }
+                    }
+                    for(prop in options) {
+                        if (Object.prototype.hasOwnProperty.call(options, prop) && options[prop] != '') {
+                            extended[prop] = options[prop];
+                        }
+                    }
+                    return extended;
+                }
+
+                function addEvent(el, evt, fn) {
+                    if (el.addEventListener) {
+                        el.addEventListener(evt, fn);
+                    } else if (el.attachEvent) {
+                        el.attachEvent('on' + evt, function(evt) {
+                            fn.call(el, evt);
+                        });
+                    } else if (typeof el['on' + evt] === 'undefined' || el['on' + evt] === null) {
+                        el['on' + evt] = function(evt) {
+                            fn.call(el, evt);
+                        };
+                    }
+                }
+
+                function findElementInAnArray(array, callback) {
+                    if (!Array.isArray(array)) {
+                        return null;
+                    }
+
+                    for(var i = 0; i < array.length; i++) {
+                        var element = array[i];
+
+                        if (callback(element)) {
+                            return element;
+                        }
+                    }
+                    return null;
+                }
+
+                function findQueryParam(queryArr, paramName) {
+                    var value = findElementInAnArray(queryArr, function(param) {
+                        var key = param.split('=')[0];
+                        return typeof key === 'string' && decodeURIComponent(key).toLowerCase() === paramName;
+                    });
+                    if (value) {
+                        value = value.split('=')[1]
+                    }
+                    return value;
+                }
+
+                (function addGTMScript() {
+                    var head = document.querySelector('head');
+                    var element = document.createElement('script');
+                    element.src = 'https://www.googletagmanager.com/gtm.js?id=' + containerId + '&l=' + layerName;
+                    element.async = true;
+                    head.insertAdjacentElement('afterbegin', element);
+                })();
+
+                window[layerName].push({
+                    event: 'gtm.js',
+                    'gtm.start': new Date().getTime(),
+                });
+
+                for(var i = 0; i < query.length; ++i) {
+                    var getVar = query[i].split('=');
+                    var key = getVar[0];
+                    var value = getVar[1];
+
+                    params[decodeURIComponent(key)] = typeof value !== 'undefined'
+                        ? decodeURIComponent(value)
+                        : '';
+                }
+
+                window[layerName].push(params);
+                addEvent(window, 'message', function(message) {
+                    try {
+                        if (typeof message.data !== 'string' || !message.data.startsWith(source)) {
+                            // Skip message, The source does not exist or does not match
+                            return;
+                        }
+                        var re = new RegExp("^" + source + "\.");
+                        var data = message.data.replace(re, '');
+                        var messageData = assign(params, JSON.parse(data));
+                        window[layerName].push(messageData);
+                    } catch(e) {
+                        console.error('Error while receive GTM data', message.data, message.source, e);
+                    }
+                });
+            })(window);
+        </script>
+    <script type="text/javascript" async="" src="./openapi.js.Без названия"></script><script charset="utf-8" src="./identify_7f4c1.js.Без названия"></script></head>
+    <body>
+
+
+<script type="text/javascript" id="">(function(){window.recordTier=window.recordTier||[];window.recordTier.push({eventName:"dtm.js"});var b=document.getElementsByTagName("script")[0],a=document.createElement("script");a.async=!0;a.src="https://dtm-dre.platform.hicloud.com/download/web/dtm.js?id\x3dDTM-ac1262027c6e10a2817cc06442e74a12";b.parentNode.insertBefore(a,b)})();</script>
+<script type="text/javascript" id="">!function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://vk.com/js/api/openapi.js?169";a.onload=function(){VK.Retargeting.Init("VK-RTRG-1370373-RaDb");VK.Retargeting.Hit()};document.head.appendChild(a)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1370373-RaDb" style="position:fixed; left:-999px;" alt=""></noscript>
+<script type="text/javascript" id="">var _tmr=window._tmr||(window._tmr=[]);_tmr.push({id:"3250228",type:"pageView",start:(new Date).getTime(),pid:"USER_ID"});(function(c,e,a){if(!c.getElementById(a)){var b=c.createElement("script");b.type="text/javascript";b.async=!0;b.id=a;b.src="https://top-fwz1.mail.ru/js/code.js";a=function(){var d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)};"[object Opera]"==e.opera?c.addEventListener("DOMContentLoaded",a,!1):a()}})(document,window,"topmailru-code");</script><noscript><div>
+<img src="https://top-fwz1.mail.ru/counter?id=3250228;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru">
+</div></noscript>
+
+
+<script type="text/javascript" id="">var _tmr=window._tmr||(window._tmr=[]);_tmr.push({id:"3280926",type:"pageView",start:(new Date).getTime(),pid:"USER_ID"});(function(c,e,a){if(!c.getElementById(a)){var b=c.createElement("script");b.type="text/javascript";b.async=!0;b.id=a;b.src="https://top-fwz1.mail.ru/js/code.js";a=function(){var d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)};"[object Opera]"==e.opera?c.addEventListener("DOMContentLoaded",a,!1):a()}})(document,window,"tmr-code");</script>
+<noscript><div><img src="https://top-fwz1.mail.ru/counter?id=3280926;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru"></div></noscript>
+<script type="text/javascript" id="">!function(d,g,e){d.TiktokAnalyticsObject=e;var a=d[e]=d[e]||[];a.methods="page track identify instances debug on off once ready alias group enableCookie disableCookie".split(" ");a.setAndDefer=function(b,c){b[c]=function(){b.push([c].concat(Array.prototype.slice.call(arguments,0)))}};for(d=0;d<a.methods.length;d++)a.setAndDefer(a,a.methods[d]);a.instance=function(b){b=a._i[b]||[];for(var c=0;c<a.methods.length;c++)a.setAndDefer(b,a.methods[c]);return b};a.load=function(b,c){var f="https://analytics.tiktok.com/i18n/pixel/events.js";
+a._i=a._i||{};a._i[b]=[];a._i[b]._u=f;a._t=a._t||{};a._t[b]=+new Date;a._o=a._o||{};a._o[b]=c||{};c=document.createElement("script");c.type="text/javascript";c.async=!0;c.src=f+"?sdkid\x3d"+b+"\x26lib\x3d"+e;b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(c,b)};a.load("CF80N43C77UEUGLDLP2G");a.page()}(window,document,"ttq");</script>
+<script type="text/javascript" id="">var _tmr=window._tmr||(window._tmr=[]);_tmr.push({id:"3297122",type:"pageView",start:(new Date).getTime(),pid:"USER_ID"});(function(c,e,a){if(!c.getElementById(a)){var b=c.createElement("script");b.type="text/javascript";b.async=!0;b.id=a;b.src="https://top-fwz1.mail.ru/js/code.js";a=function(){var d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)};"[object Opera]"==e.opera?c.addEventListener("DOMContentLoaded",a,!1):a()}})(document,window,"tmr-code");</script>
+<noscript><div><img src="https://top-fwz1.mail.ru/counter?id=3297122;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru"></div></noscript>
+
+</body><iframe id="__JSBridgeIframe_1.0__" title="jsbridge___JSBridgeIframe_1.0__" style="display: none;" src="./saved_resource.html"></iframe><iframe id="__JSBridgeIframe_SetResult_1.0__" title="jsbridge___JSBridgeIframe_SetResult_1.0__" style="display: none;" src="./saved_resource(1).html"></iframe><iframe id="__JSBridgeIframe__" title="jsbridge___JSBridgeIframe__" style="display: none;" src="./saved_resource(2).html"></iframe><iframe id="__JSBridgeIframe_SetResult__" title="jsbridge___JSBridgeIframe_SetResult__" style="display: none;" src="./saved_resource(3).html"></iframe></html>

@@ -1,0 +1,150 @@
+html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+  }
+  #menu__toggle {
+    opacity: 0;
+  }
+  .menu__btn {
+      display: flex; 
+      align-items: center; 
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    transition-duration: .25s;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+}
+.menu__box {
+    transition-duration: .25s;
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background: #232324;
+    color: #fff;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+  /* элементы меню */
+  .menu__item {
+    transition-duration: .25s;
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+  .menu__item:hover {
+    color: #CFD8DC;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+      transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+      top: 0;
+    transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+}
+  
+ 
+.Sign {
+width: 100%;
+padding: 100px 0 0 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 50px;
+.Sign-inside {
+padding: 30px;
+display: flex;
+flex-direction: column;
+width: 300px;
+justify-content: center;
+margin: 0 auto;
+background: #141e30;
+border-radius: 10px;
+gap: 30px;
+color: #fff;
+.sign-login {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sign-login2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  .login-button {
+    padding: 8px 10px 8px 10px;
+    border-radius: 10px;
+    width: 100px;
+    border: 1px solid #fff;
+    transition: all .3s ease-in-out;
+  }
+  .login-button:hover {
+   background: #243b55;
+   color: #fff;
+   border: 1px solid #243b55;
+  }
+}
+.input1_Sign-inside {
+  padding: 10px 30px 10px 30px;
+  border-radius: 20px;
+  border: 1px solid;
+}
+}
+}
+.sign-secsess {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+@keyframes Tost {
+  
+from{
+  position: relative;
+  bottom: -50;
+
+}
+to{top: 50;}
+}

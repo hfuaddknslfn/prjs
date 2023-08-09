@@ -1,0 +1,253 @@
+{
+  "users": [
+    {
+      "usersname": "andrei",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "username": "Andrei",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "username": "Andrei",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "username": "Andrei",
+      "password": "123456",
+      "id": 6
+    },
+    {
+      "username": "Andrei",
+      "password": "123456",
+      "id": 7
+    },
+    {
+      "username": "Andrei",
+      "password": "123456",
+      "id": 8
+    },
+    {
+      "username": "andrei",
+      "password": "123456878",
+      "id": 9
+    },
+    {
+      "username": "andrei",
+      "password": "123456878",
+      "id": 10
+    },
+    {
+      "username": "andrei",
+      "password": "123456878",
+      "id": 11
+    },
+    {
+      "username": "Andrei",
+      "password": "123456",
+      "id": 12
+    },
+    {
+      "username": "Andrei",
+      "password": "123456",
+      "id": 13
+    },
+    {
+      "username": "Andrei",
+      "password": "123456",
+      "id": 14
+    },
+    {
+      "username": "Andrei",
+      "password": "123456",
+      "id": 15
+    },
+    {
+      "username": "Andrei",
+      "password": "123456",
+      "id": 16
+    },
+    {
+      "username": "Andrei",
+      "password": "123456",
+      "id": 17
+    },
+    {
+      "username": "Andrei",
+      "password": "123456",
+      "id": 18
+    },
+    {
+      "username": "Andrei",
+      "password": "123456",
+      "id": 19
+    },
+    {
+      "username": "Andrei",
+      "password": "123456",
+      "id": 20
+    }
+  ],
+  "films": [
+    {
+      "name": "круче некуда",
+      "age": "2007",
+      "img": "https://kinobar.vip/uploads/posts/2023-06/1685636995_7.jpg",
+      "id": 1
+    },
+    {
+      "name": "хвостатый пришелец",
+      "age": "2007",
+      "img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/41d3875a-2771-42ae-9ff1-5891cf31b3a2/300x450",
+      "id": 2
+    },
+    {
+      "name": "10 дней без мамы",
+      "age": "2007",
+      "img": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/8618ae88-9a4e-4b8f-8d73-8f1152bcbb93/300x450",
+      "id": 3
+    },
+    {
+      "name": "кошка",
+      "age": "2007",
+      "img": "https://www.kino-teatr.ru/movie/posters/big/9/155429.jpg",
+      "id": 4
+    },
+    {
+      "name": "Gangster",
+      "age": "2007",
+      "img": "https://www.film.ru/sites/default/files/styles/thumb_260x400/public/movies/posters/45932883-1994993.jpeg",
+      "id": 5
+    },
+    {
+      "name": "такси",
+      "age": "2007",
+      "img": "https://gidonline.io/img/cb2287eba_200x300.jpg",
+      "id": 6
+    },
+    {
+      "name": "тайлер рейк",
+      "age": "2007",
+      "img": "https://gidonline.io/img/9fa78ad41_200x300.jpg",
+      "id": 7
+    },
+    {
+      "name": "Переводчик",
+      "age": "2007",
+      "img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/5c775217-8796-4c7a-aba8-e4c6d48a6c36/300x450",
+      "id": 8
+    },
+    {
+      "name": "Постучись в мою дверь",
+      "age": "2007",
+      "img": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/389c3708-9557-44ea-9579-42b42e0570bd/300x450",
+      "id": 9
+    },
+    {
+      "name": "библиотекарь",
+      "age": "2007",
+      "img": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/d43d7327-57eb-41be-89c3-0fa08937ce02/300x450",
+      "id": 10
+    },
+    {
+      "name": "Уикенд с батей",
+      "age": "2007",
+      "img": "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/ed5a34ed-691d-4ae0-b80d-e89c3104b7dd/300x450",
+      "id": 11
+    }
+  ],
+  "films2": [
+    {
+      "name": "круче некуда",
+      "age": "2007",
+      "img": "https://kinobar.vip/uploads/posts/2023-06/1685636995_7.jpg",
+      "video": "https://youtu.be/QOg9LUIvaig",
+      "id": 1
+    },
+    {
+      "name": "хвостатый пришелец",
+      "age": "2007",
+      "img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/41d3875a-2771-42ae-9ff1-5891cf31b3a2/300x450",
+      "id": 2
+    },
+    {
+      "name": "10 дней без мамы",
+      "age": "2007",
+      "img": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/8618ae88-9a4e-4b8f-8d73-8f1152bcbb93/300x450",
+      "id": 3
+    },
+    {
+      "name": "кошка",
+      "age": "2007",
+      "img": "https://www.kino-teatr.ru/movie/posters/big/9/155429.jpg",
+      "id": 4
+    },
+    {
+      "name": "Gangster",
+      "age": "2007",
+      "img": "https://www.film.ru/sites/default/files/styles/thumb_260x400/public/movies/posters/45932883-1994993.jpeg",
+      "id": 5
+    },
+    {
+      "name": "такси",
+      "age": "2007",
+      "img": "https://gidonline.io/img/cb2287eba_200x300.jpg",
+      "id": 6
+    },
+    {
+      "name": "тайлер рейк",
+      "age": "2007",
+      "img": "https://gidonline.io/img/9fa78ad41_200x300.jpg",
+      "id": 7
+    },
+    {
+      "name": "Переводчик",
+      "age": "2007",
+      "img": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/5c775217-8796-4c7a-aba8-e4c6d48a6c36/300x450",
+      "id": 8
+    },
+    {
+      "name": "Постучись в мою дверь",
+      "age": "2007",
+      "img": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/389c3708-9557-44ea-9579-42b42e0570bd/300x450",
+      "id": 9
+    },
+    {
+      "name": "библиотекарь",
+      "age": "2007",
+      "img": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/d43d7327-57eb-41be-89c3-0fa08937ce02/300x450",
+      "id": 10
+    },
+    {
+      "name": "Уикенд с батей",
+      "age": "2007",
+      "img": "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/ed5a34ed-691d-4ae0-b80d-e89c3104b7dd/300x450",
+      "id": 11
+    }
+  ],
+  "films3": [
+    {
+      "name": "красивый мальчик",
+      "age": "1",
+      "desc": "Beatiful boy",
+      "augustnum": "3",
+      "august": "Августа",
+      "imgPaluch": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/8f30055e-0b69-44c9-a8c4-ae8860c0cd5d/40x60",
+      "video": "https://youtu.be/QOg9LUIvaig",
+      "id": 1
+    }
+  ]
+}
